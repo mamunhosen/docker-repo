@@ -1,7 +1,7 @@
 FROM node:alpine
 
 WORKDIR /app
-
+USER root
 COPY package.json .
 RUN npm install
 
